@@ -1,3 +1,5 @@
+isdefined(Main, :__precompile__) && __precompile__()
+
 module KnowedMimeTypes
 
 export get_mime, MIMETYPES, MimeTypes
